@@ -1,0 +1,110 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.banner-image {
+  background-image: url('../src/assets/3163.jpg');
+    background-size:contain;
+    height: 20vh;
+    border-radius: 0 0 20px 20px;
+    opacity: inherit;
+}
+
+.navbar {
+  height: 70px !important;
+  background-color: rgb(59, 33, 108);
+}
+
+.satu {
+  padding: 15px;
+  background-color: rgb(247, 228, 243);
+  width: auto;
+  border-radius: 15px;
+}
+.dua {
+  padding: 15px;
+  background-color: rgb(247, 228, 243);
+  width: auto;
+  border-radius: 15px;
+  margin-top: 10px;
+  height: auto;
+}
+
+.buttonBaca {
+  width: 140px;
+  height: 30px;
+  background-color: rgb(59, 33, 108);
+  color: white;
+  border: 0;
+  border-radius: 15px;
+  font-size: 12px;
+}
+
+.buttonCategory {
+  padding : 8px;
+  height: auto;
+  width: auto;
+  background-color: white;
+  border : 1px solid rgb(109, 95, 95);
+  font-size: 12px;
+  border-radius: 10px;
+  margin: 2px;
+} 
+
+.borra-4 {
+  border-radius: 10px !important;
+}
+.card {
+  width: 155px;
+  height: auto;
+  border-radius: 10px !important;
+}
+
+.author {
+  font-weight: bold;
+  font-size: 13px;
+  margin-bottom: 0;
+  color: black;
+}
+
+.judul {
+  font-size: 11px;
+  color: rgb(55, 55, 55);
+}
+
+.pagination {
+    margin: 30px auto;
+}
+
+.btnPagin {
+  width: 100px;
+  height: 30px;
+  margin: 10px;
+  background-color: rgb(59, 33, 108);
+  color: white;
+  font-size: 13px;
+  border: none;
+  border-radius: 10px;
+  margin-top: -40px !important;
+}
+
+.select {
+  font-size: 12px !important;
+ height: 40px !important;
+  width: auto !important;
+  border-radius: 10px !important;
+}
+
+.form-control {
+  border-radius: 10px !important;
+}
