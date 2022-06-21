@@ -8,18 +8,6 @@ const Category = () => {
     const [category, setCategory] = useState([])
 
 
-    // const getCategory = async () => {
-    //     try {
-    //       const { data } = await axios.get(
-    //         "https://asia-southeast2-sejutacita-app.cloudfunctions.net/fee-assessment-categories"
-    //       );
-    //       console.log(data);
-    //     //   setCategory(data.results);
-    //     } catch (error) {
-    //       console.log(error);
-    //     }
-    //   };
-
      useEffect (() =>{
         Axios.get('https://asia-southeast2-sejutacita-app.cloudfunctions.net/fee-assessment-categories')
         .then(result => {
@@ -37,16 +25,16 @@ const Category = () => {
 
 return (
   <div className='container'>
-    {/* <div className="row mt-2">
-       <h4>Eksplor Kategori</h4> 
-    </div> */}
+   
     <div > 
+        <center>
             <button className="buttonCategory">semua</button>
-            {category.map((item, index)=> {
+            {category.map((item)=> {
                 return (
-            <span> <button onClick={()=> navigate('/category')} className="buttonCategory">{item.name}</button></span>)})}
-
-    </div>
+            <span> <button key={item.id} onClick={()=> navigate(`/category/${item.id}`)} className="buttonCategory">{item.name}</button></span>)})}
+        </center>
+    
+    </div> 
 
 </div>
     

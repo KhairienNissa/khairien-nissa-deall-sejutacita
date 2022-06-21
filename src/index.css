@@ -7,33 +7,20 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
-
-.banner-image {
-  background-image: url('../src/assets/3163.jpg');
-    background-size:contain;
-    height: 20vh;
-    border-radius: 0 0 20px 20px;
-    opacity: inherit;
-}
-
 .navbar {
   height: 70px !important;
-  background-color: rgb(59, 33, 108);
+  background-color: rgb(52, 51, 119);
 }
 
 .satu {
   padding: 15px;
-  background-color: rgb(247, 228, 243);
+  background-color: rgb(237, 227, 235);
   width: auto;
   border-radius: 15px;
 }
 .dua {
   padding: 15px;
-  background-color: rgb(247, 228, 243);
+  background-color: rgb(237, 227, 235);
   width: auto;
   border-radius: 15px;
   margin-top: 10px;
@@ -43,7 +30,7 @@ code {
 .buttonBaca {
   width: 140px;
   height: 30px;
-  background-color: rgb(59, 33, 108);
+  background-color: rgb(52, 51, 119);
   color: white;
   border: 0;
   border-radius: 15px;
@@ -90,12 +77,16 @@ code {
   width: 100px;
   height: 30px;
   margin: 10px;
-  background-color: rgb(59, 33, 108);
+  background-color: rgb(52, 51, 119);
   color: white;
   font-size: 13px;
   border: none;
   border-radius: 10px;
   margin-top: -40px !important;
+}
+
+.btnPagin-disabled {
+  background-color: rgb(180, 171, 189);
 }
 
 .select {
@@ -107,4 +98,63 @@ code {
 
 .form-control {
   border-radius: 10px !important;
+}
+.change-theme {
+  color: white;
+}
+
+.light-theme {
+    background-color: rgb(52, 51, 119) !important;
+}
+
+.light-theme .change-theme {
+  color:rgb(8, 8, 8) !important;
+}
+
+.light-theme .buttonCategory {
+  padding : 8px;
+  height: auto;
+  width: auto;
+  background-color: rgb(52, 51, 119);
+  border : 1px solid rgb(255, 255, 255);
+  font-size: 12px;
+  border-radius: 10px;
+  margin: 2px;
+  color: aliceblue !important;
+}
+
+.light-theme .btnPagin {
+  width: 100px;
+  height: 30px;
+  margin: 10px;
+  background-color: rgb(251, 251, 251);
+  color: rgb(52, 51, 119);
+  font-size: 13px;
+  border: none;
+  border-radius: 10px;
+  margin-top: -40px !important;
+}
+
+.light-theme .btnPagin-disabled {
+  background-color: rgb(180, 171, 189) !important;
+}
+
+.light-theme .card {
+  width: 155px;
+  height: auto;
+  border-radius: 10px !important;
+  background-color: rgb(52, 51, 119) !important;
+  border-color: white !important;
+}
+
+.light-theme .author {
+  font-weight: bold;
+  font-size: 13px;
+  margin-bottom: 0;
+  color: white;
+}
+
+.light-theme .judul {
+  font-size: 11px;
+  color: white;
 }
